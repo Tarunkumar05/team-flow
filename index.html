@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Table</title>
+
+    <!-- Dependencies: Bootstrap CSS for basic styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+/* Custom styles for the table */
+.table-sc-v1-wrapper {
+    display: table;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse; /* Ensures borders don't double up */
+}
+
+.row-tr {
+    display: table-row;
+}
+
+.col-th, .center-el {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Basic border for all cells */
+    box-sizing: border-box; /* Ensure padding doesn't affect the border */
+}
+
+/* Apply a thicker border specifically to the Teamflow column */
+.teamflow-col {
+    border: 2px solid #333; /* Darker and thicker border */
+    box-sizing: border-box; /* Make sure padding doesn't affect the border */
+}
+
+/* Optional: Adding rounded corners for a better look */
+.teamflow-col:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.teamflow-col:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+    </style>
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="table-sc-v1">
+        <div class="table-sc-v1-wrapper">
+            <!-- Table Header -->
+            <div class="row-tr">
+                <div class="empty"></div>
+                <div class="col-th bg-dark">
+                    <img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6324a38e23d96e5ff62696db_tf-logo-dark-txt.svg" loading="lazy" alt="Teamflow logo" class="logo-comparison-chart">
+                    <img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/63441cf5ccff9664cd159249_tf-icon.svg" loading="lazy" alt="Teamflow icon" class="image-51">
+                </div>
+                <div class="col-th"><div class="table-head">Zoom</div></div>
+                <div class="col-th"><div class="table-head">Google Meet</div></div>
+                <div class="col-th"><div class="table-head">Teams</div></div>
+            </div>
+
+            <!-- Table Rows -->
+            <div class="row-tr bg-white top">
+                <div class="center-el"><p class="table-feature">One click meetings</p></div>
+                <div class="center-el bg-dark"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-gray">
+                <div class="center-el"><p class="table-feature">Internal and external meetings</p></div>
+                <div class="center-el dark-bg-2"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-white">
+                <div class="center-el"><p class="table-feature">Record meeting</p></div>
+                <div class="center-el bg-dark"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-gray">
+                <div class="center-el"><p class="table-feature">Breakout rooms</p></div>
+                <div class="center-el dark-bg-2"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-white">
+                <div class="center-el"><p class="table-feature">Screen share</p></div>
+                <div class="center-el bg-dark"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-gray">
+                <div class="center-el"><p class="table-feature">Virtual backgrounds</p></div>
+                <div class="center-el dark-bg-2"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-white">
+                <div class="center-el"><p class="table-feature">Engagement features (polls, chat)</p></div>
+                <div class="center-el bg-dark"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-gray">
+                <div class="center-el"><p class="table-feature">Raise hand</p></div>
+                <div class="center-el dark-bg-2"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+            </div>
+
+            <div class="row-tr bg-white">
+                <div class="center-el"><p class="table-feature">SSO (Single Sign-On)</p></div>
+                <div class="center-el bg-dark"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321467b607c938114d2bce6_circle-check.svg" loading="lazy" alt="check" class="check-mobile"></div>
+                <div class="center-el"><img src="https://cdn.prod.website-files.com/5f09ed4399101722511c55e7/6321f08287c8f4604e6a01e8_circle-x.svg" loading="lazy" alt="x" class="check-mobile"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
